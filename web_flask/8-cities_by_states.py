@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-
 """Script that starts a Flask web apllication"""
 
 from flask import Flask, render_template
