@@ -16,6 +16,7 @@ def states():
                            states=storage.all('State').values())
 
 
+
 @app.teardown_appcontext
 def teardown(self):
     """closes the current SQLAlchemy session"""
